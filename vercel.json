@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/bb-api/:path*",
+      "destination": "https://api.mridul.tech/api/breaking-bad/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
